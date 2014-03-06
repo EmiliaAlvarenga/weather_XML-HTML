@@ -1,4 +1,4 @@
 weather_XML-HTML
 ================
 
-Trabajando con APIs en XML
+Aplicación weather con entrada en XML y salida en HTML
