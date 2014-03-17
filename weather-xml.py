@@ -9,7 +9,7 @@ import webbrowser
 def direccion_vi(cadena):
     if cadena>=337.5 and cadena<=360.0 or cadena>=0 and cadena<22.5:
        	return "N"
-    if cadena>=22.5 and cadena<=67.5:
+    if cadena>=22.5 and cadena<67.5:
        	return "NE"
     if cadena>=67.5 and cadena<112.5:
        	return "E"
