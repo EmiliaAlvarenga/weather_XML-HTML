@@ -56,13 +56,4 @@ mi_template=Template(html)
 salida=mi_template.render(ciudades=provincia_salida, temp_minima=temp_min, temp_maxima=temp_max, viento=velocidad_viento, direccion_viento=direccion)
 f_weather.write(salida)
 webbrowser.open("weather.html")	
-  html += linea
-mi_template=Template(html)
-salida=mi_template.render(ciudades=provincia_salida, temp_minima=temp_min, temp_maxima=temp_max, viento=velocidad_viento, direccion_viento=direccion)
-f_weather.write(salida)
-webbrowser.open("weather.html")	
-  html += linea
-mi_template=Template(html)
-salida=mi_template.render(ciudades=provincia_salida, temp_minima=temp_min, temp_maxima=temp_max, viento=velocidad_viento, direccion_viento=direccion)
-f_weather.write(salida)
-webbrowser.open("weather.html")	
+
